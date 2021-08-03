@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>
+		PROFILE MANAGMENT
+	</title>
+</head>
+
+
+	<body>
+
+	<br />
+	
+	<h1 align="center">
+		<font face="Lato" color="black" size="7">
+			STUDENT PROFILE MANAGMENT
+		</font>
+	</h1>
+	<h3 align="center">
+		<font face="Lato" color="#000" size="2">
+			Mobile Device Manager Plus uses profiles as a mode to apply configurations to the managed devices. You can create profiles and publish them, which can be associated to a managed device or a group of devices. The following topics will cover more on creating and associating profiles to devices and groups.
+
+A published profile is not applied to any of the devices until they are associated with the devices or groups. When a profile is modified and published, a new version of the profile is created. New versions of the same profile will not be applied automatically to any devices/groups, to which they were applied before. You would need to associate the profile to the devices/groups again to apply the configurations.
+
+When the modified profile is applied to devices/groups to which the previous version of the profile was applied, the configurations are overwritten with the new changes. If you have removed any particular configuration in the new version and applied the same to the devices, then the particular configuration will be removed from the devices though it was installed earlier by the previous version.
+
+For example: You have created a new version for profile where you have removed mail server configurations, and then the profile is associated with the devices, then the email server configurations will be removed from the managed devices though it was configured earlier as per the previous profile.
+		</font>
+	</h3>
+	<br />
+	Name : <input typr=text>
+<br><br>
+E-Mail : <input type=text>
+<br><br>
+
+Phone Number : <input type=text>
+<br><br>
+
+CLASS : <input type=text>
+<br><br>
+<button><b> SUBMIT</b></button>
+</br></br>
+	
+	<a href="https://www.facebook.com/"> <img src="1.jpg"/>
+	</a>
+	<a href="#">
+		<font face="Lato" color="#000">GET STARTED</font>
+	</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="#">
+		<font face="Lato" color="#fff">SUBSCRIBE US</font>
+	</a>
+	
+</body>
+</html>
