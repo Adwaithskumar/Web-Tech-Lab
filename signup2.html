@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registerartion form</title>
+    <link rel="stylesheet" href="style34.css">
+	<style>
+body {
+  background-image: url('vac.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</style>
+    <form class="reg-form">
+	<p>Welcome to Cowin Portal</p>
+   <p class="helper-text">* denotes a required field</p>
+   <div class="field-row">
+      <label class="form-label" for="firstName"><b>Full Name<b></label>
+      <input type="text" id="firstName" class="field text-field first-name-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label cf" for="lastName"><b>Aadhar ID<b></label>
+      <input type="text" id="lastName" class="field text-field last-name-field" required>
+      <span class="message"></span>
+   </div>
+   
+   <div class="field-row">
+      <label class="form-label" for="dateOfBirth"><b>Date of birth<b></label>
+      <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+      <span class="message"></span>
+   </div>
+   <table >
+&nbsp; &nbsp;&nbsp; Gender: <input type="radio" name="status" style="margin-left: 10px">Male
+   <input type="radio" name="status">Female
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Mobile Num</b></label>
+      <input type="tel" id="tel" class="field text-field tel-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="initials"><b>City</b></label>
+      <input type="text" id="initials" class="field text-field initials-field">
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Permanent Address<b></label>
+      <input type="tel" id="tel" class="field text-field address-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>Pincode</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="dateOfBirth"><b>Vaccination Slot<b></label>
+      <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+      <span class="message"></span>
+   </div>
+   <td><b>Dose Selection</b> </td>
+
+<td> &nbsp; &nbsp;&nbsp;
+First Dose
+<input type="checkbox" name="College ID" value="College ID" />
+Second Dose
+<input type="checkbox" name="Adhar Card" value="Adhar Card" />
+
+<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</td>
+</tr>
+</table>
+   
+   <div class="field-row">
+      <label class="form-label"><b>Vaccines Available</b></label>
+      <select class="form-dropdown field">
+         <option value="1st Sem"> Covaxin </option>
+         <option value="2nd Sem"> Covisheild </option>
+         <option value="3rd Sem"> Fizer </option>
+         <option value="4th Sem"> Sputnik </option>
+         <option value="5th Sem"> Medula </option>
+          <option value="6th Sem">Modena </option>
+      </select>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="email"><b>Email<b></label>
+      <input type="email" id="email" class="field text-field email-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>Alternate Phonenumber</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+
+
+
+   <div class="field-row">
+      <label class="form-label"></label>
+      <br>
+      <br>
+
+      <button class="form-button"onclick="myFunction()" >Register</button>
+
+      <script>
+      function myFunction(){
+        window.location="registersuc.html"
+      }
+      </script>
+      <input type="button"value="Reset" style="background:orange">
+   </div>
+</form>
+
+  </body>
+</html>
