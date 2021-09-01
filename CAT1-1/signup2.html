@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registerartion form</title>
+    <link rel="stylesheet" href="style34.css">
+	<style>
+body {
+  background-image: url('vac.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</style>
+    <form class="reg-form">
+	<p>Welcome to Kerala Tourism Registration Portal</p>
+   <p class="helper-text">* denotes a required field</p>
+   <div class="field-row">
+      <label class="form-label" for="firstName"><b>Full Name<b></label>
+      <input type="text" id="firstName" class="field text-field first-name-field" required>
+      <span class="message"></span>
+	  
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>Adults</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+    <div class="field-row">
+      <label class="form-label" for="hs"><b>Children</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label cf" for="lastName"><b>Aadhar Card <b></label>
+      <input type="text" id="lastName" class="field text-field last-name-field" required>
+      <span class="message"></span>
+   </div>
+   
+   <div class="field-row">
+      <label class="form-label" for="dateOfBirth"><b>Arrival date<b></label>
+      <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+      <span class="message"></span>
+   </div>
+     <div class="field-row">
+      <label class="form-label" for="dateOfBirth"><b>Departure Date<b></label>
+      <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+      <span class="message"></span>
+   </div>
+    
+   <table >
+&nbsp; &nbsp;&nbsp; Transport: <input type="radio" name="status" style="margin-left: 10px">Air
+   <input type="radio" name="status">Rail <input type="radio" name="status">Road <input type="radio" name="status">Water
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Mobile Number</b></label>
+      <input type="tel" id="tel" class="field text-field tel-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="initials"><b>Permanent Address </b></label>
+      <input type="text" id="initials" class="field text-field initials-field">
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="tel"><b>Destination City<b></label>
+      <input type="tel" id="tel" class="field text-field address-field" required>
+      <span class="message"></span>
+   </div>
+  
+ 
+   <td><b>Vaccination Status</b> </td>
+
+<td> &nbsp; &nbsp;&nbsp;
+First Dose
+<input type="checkbox" name="College ID" value="College ID" />
+Second Dose
+<input type="checkbox" name="Adhar Card" value="Adhar Card" />
+
+<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+</td>
+</tr>
+</table>
+   
+   <div class="field-row">
+      <label class="form-label"><b>Purpose Of Visit</b></label>
+      <select class="form-dropdown field">
+         <option value="1st Sem"> Tourism </option>
+         <option value="2nd Sem"> Education </option>
+         <option value="3rd Sem"> Health </option>
+         <option value="4th Sem"> Native </option>
+         <option value="5th Sem"> Buisness </option>
+      </select>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="email"><b>Email<b></label>
+      <input type="email" id="email" class="field text-field email-field" required>
+      <span class="message"></span>
+   </div>
+   <div class="field-row">
+      <label class="form-label" for="hs"><b>Alternate Phonenumber</b></label>
+      <input type="text" id="hs" class="field text-field hs-field" required>
+      <span class="message"></span>
+   </div>
+
+
+
+   <div class="field-row">
+      <label class="form-label"></label>
+      <br>
+      <br>
+
+      <button class="form-button"onclick="myFunction()" >Register</button>
+
+      <script>
+      function myFunction(){
+        window.location="registersuc.html"
+      }
+      </script>
+      <input type="button"value="Reset" style="background:orange">
+   </div>
+</form>
+
+  </body>
+</html>
